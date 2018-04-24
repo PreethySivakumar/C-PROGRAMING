@@ -7,15 +7,15 @@ int main()
     scanf("%d",&a);
     if(a>0)
     
-        printf("%d is positive",a);
+        printf("positive");
         
     else if(a<0)
     
-        printf("%d is negative",a);
+        printf("negative");
       
     else
     
-        printf("%d is zero",a);
+        printf("zero");
        
     return 0;    
 }
