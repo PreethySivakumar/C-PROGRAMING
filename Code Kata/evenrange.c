@@ -2,12 +2,12 @@
 
 int main(){
 
-           int f1,f2,rem,i;
+           int m,n,rem,i;
            scanf("%d",&f1);
            scanf("%d",&f2);
 
 
-           for(i=f1+1; i<f2; ++i)
+           for(i=m+1; i<n; ++i)
            {
 
                rem = i % 2;
